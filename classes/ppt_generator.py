@@ -2,10 +2,8 @@ import os
 import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
-import matplotlib.dates as mdates
 from custom_presentation import CustomPresentation
 import plotly.graph_objects as go
-from pptx.util import Inches
 import matplotlib.ticker as mticker
 from scipy.interpolate import make_interp_spline
 import datetime as dt

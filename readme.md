@@ -42,18 +42,40 @@ This project showcases my ability to automate the generation of PowerPoint prese
 * These graphs provide dynamic exploration of the data (e.g., zooming, tooltips).
 * *(Note: The PPTs themselves are static. The interactive graphs are in separate HTML files, and the intended integration would involve linking from the PPT or exporting the PPT to HTML.)*
 
-### 5. Code Structure
+###   5. Code Structure
 
 The project code is organized as follows:
 
-* `runner.ipynb`:  Notebook to orchestrate the PPT creation process.
-* `prepare_data.ipynb`:  Notebook to orchestrate the data gathering and web scraping process.
-* `ppt_generator.py` (Class):  Handles data transformation and preparation.
-* `custom_presentation.py` (Class):  Manages PPT styling, slide creation, and content population.
+* `runner.ipynb`: Notebook to orchestrate the PPT creation process.
+* `prepare_data.ipynb`: Notebook to orchestrate the data gathering and web scraping process.
+* `ppt_generator.py` (Class): Handles data transformation, graph generation, and HTML conversion of graphs.
+* `custom_presentation.py` (Class): Manages PPT styling, slide creation, and content population.
+
+####   5.1 How to Add Changes?
+
+* `runner.ipynb`: Update this file to change the filters of the PPTs (PPT\_DATA).
+* `prepare_data.ipynb`: Change this file to change the data you are going to work on.
+* `ppt_generator.py` (Class): Change this file to filter and transform data. This file also handles graph styles, saving them as images, and creating HTML versions of them.
+* `custom_presentation.py` (Class): Change this file to modify the styles, logo, colors, etc., based on your requirements.
+
+###   6. How to Run?
+
+1.  `prepare_data.ipynb`: Run this to get the updated data in the Excel sheets (`personal_data.xlsx` and `processed_data.xlsx`).
+2.  `runner.ipynb`: Run this after `prepare_data.ipynb` or once you have both `personal_data.xlsx` and `processed_data.xlsx`. The PPTs will be created.
+
 
 ## PPT Analysis Summary
 
 I've created two PPTs: one for male players ("player\_Male.pptx") and one for female players ("player\_Female.pptx").
+
+## Dependencies
+
+* Python 3.11
+* Matplotlib
+* python-pptx
+* Pandas
+* plotly
+* scipy
 
 ## Technical Considerations
 
