@@ -22,14 +22,14 @@
 
 <br />
 <div align="center">
-  <img src="images/cricket_logo.png" alt="Project Logo" width="150">
+  <img src="images/logo.png" alt="Project Logo" width="150">
 
   <h3 align="center">🏏 Cricket Centuries Analysis - Automated PPT Generation 📊</h3>
 
   <p align="center">
     A project demonstrating the automated generation of PowerPoint presentations from web-scraped cricket data, showcasing data analysis and visualization skills.
     <br />
-    <a href="YOUR_GITHUB_REPO_LINK_HERE"><strong>View on GitHub</strong></a>
+    <a href="https://github.com/Ayush-2001-Dhanraj/ppt_automation/blob/main/readme.md"><strong>View on GitHub</strong></a>
   </p>
 </div>
 
