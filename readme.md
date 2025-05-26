@@ -22,7 +22,7 @@
 
 <br />
 <div align="center">
-  <img src="images/logo.png" alt="Project Logo" width="150">
+  <img src="assets/logo.png" alt="Project Logo" width="150">
 
   <h3 align="center">🏏 Cricket Centuries Analysis - Automated PPT Generation 📊</h3>
 
